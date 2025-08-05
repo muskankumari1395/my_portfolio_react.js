@@ -1,10 +1,10 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
-import AnimatedCounter from "../componenets/AnimatedCounter";
-import Button from "../componenets/Button";
+import AnimatedCounter from "../components/AnimatedCounter"
+import Button from "../components/Button";
 import { words } from "../constants";
-import HeroExperience from "../componenets/models/hero_models/HeroExperience";
+import HeroExperience from "../components/models/hero_models/HeroExperience";
 
 const Hero = () => {
   useGSAP(() => {
@@ -51,7 +51,7 @@ const Hero = () => {
             </div>
 
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              Hi, I’m Adrian, a developer based in Croatia with a passion for
+              Hi, I’m Muskan, a developer based in India with a passion for
               code.
             </p>
 
