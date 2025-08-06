@@ -4,6 +4,10 @@ const navLinks = [
     link: "#work",
   },
   {
+    name: "About",
+    link: "#about",
+  },
+  {
     name: "Experience",
     link: "#experience",
   },
@@ -147,7 +151,7 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Khushi's creative vision and technical expertise in graphics design brought our brand to life. Her innovative design solutions helped establish a strong market presence.",
+    review: "Creative vision and technical expertise in graphics design brought our brand to life. Innovative design solutions helped establish a strong market presence.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Graphics Designer",
@@ -161,7 +165,7 @@ const expCards = [
     ],
   },
   {
-    review: "Khushi's front-end development skills are exceptional. She created intuitive, responsive interfaces that significantly improved user engagement and satisfaction.",
+    review: "Front-end development skills are exceptional. Created intuitive, responsive interfaces that significantly improved user engagement and satisfaction.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
     title: "Front-End Developer",
@@ -175,7 +179,7 @@ const expCards = [
     ],
   },
   {
-    review: "Khushi's back-end development expertise is remarkable. She architected robust, scalable solutions that formed the backbone of our applications.",
+    review: "Back-end development expertise is remarkable. Architected robust, scalable solutions that formed the backbone of our applications.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
     title: "Back-End Developer",
@@ -189,7 +193,7 @@ const expCards = [
     ],
   },
   {
-    review: "Khushi is currently delivering comprehensive full-stack solutions that showcase her mastery of both front-end and back-end technologies.",
+    review: "Currently delivering comprehensive full-stack solutions that showcase mastery of both front-end and back-end technologies.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
     title: "Full Stack Developer",
@@ -223,42 +227,42 @@ const testimonials = [
     name: "Esther Howard",
     mentions: "@estherhoward",
     review:
-      "I can't say enough good things about Khushi. She was able to take our complex project requirements and turn them into a seamless, functional website. Her problem-solving abilities are outstanding.",
+      "I can't say enough good things about this developer. She was able to take our complex project requirements and turn them into a seamless, functional website. Her problem-solving abilities are outstanding.",
     imgPath: "/images/client1.png",
   },
   {
     name: "Wade Warren",
     mentions: "@wadewarren",
     review:
-      "Working with Khushi was a fantastic experience. She transformed our outdated website into a modern, user-friendly platform. Her attention to detail and commitment to quality are unmatched. Highly recommend her for any web dev projects.",
+      "Working with this developer was a fantastic experience. She transformed our outdated website into a modern, user-friendly platform. Her attention to detail and commitment to quality are unmatched. Highly recommend her for any web dev projects.",
     imgPath: "/images/client3.png",
   },
   {
     name: "Guy Hawkins",
     mentions: "@guyhawkins",
     review:
-      "Collaborating with Khushi was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Khushi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Khushi is the ideal partner.",
+      "Collaborating with this developer was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Her enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, she is the ideal partner.",
     imgPath: "/images/client2.png",
   },
   {
     name: "Marvin McKinney",
     mentions: "@marvinmckinney",
     review:
-      "Khushi was a pleasure to work with. She turned our outdated website into a fresh, intuitive platform that's both modern and easy to navigate. Fantastic work overall.",
+      "This developer was a pleasure to work with. She turned our outdated website into a fresh, intuitive platform that's both modern and easy to navigate. Fantastic work overall.",
     imgPath: "/images/client5.png",
   },
   {
     name: "Floyd Miles",
     mentions: "@floydmiles",
     review:
-      "Khushi's expertise in web development is truly impressive. she delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. She's a true professional!",
+      "Her expertise in web development is truly impressive. She delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. She's a true professional!",
     imgPath: "/images/client4.png",
   },
   {
     name: "Albert Flores",
     mentions: "@albertflores",
     review:
-      "Khushi was a pleasure to work with. she understood our requirements perfectly and delivered a website that exceeded our expectations. Her skills in both frontend and backend dev are top-notch.",
+      "This developer was a pleasure to work with. She understood our requirements perfectly and delivered a website that exceeded our expectations. Her skills in both frontend and backend dev are top-notch.",
     imgPath: "/images/client6.png",
   },
 ];
