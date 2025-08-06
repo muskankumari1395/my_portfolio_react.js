@@ -147,39 +147,58 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Muskan brought creativity and technical expertise to the team, significantly improving our frontend performance. Her work has been invaluable in delivering faster experiences.",
+    review: "Khushi's creative vision and technical expertise in graphics design brought our brand to life. Her innovative design solutions helped establish a strong market presence.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "Graphics Designer",
+    date: "2020 - 2021",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Crafted visually compelling brand identities and marketing materials, helping clients establish strong market presence through innovative design solutions.",
+      "Collaborated closely with diverse clients to understand their vision and translate concepts into stunning visual narratives that resonated with target audiences.",
+      "Mastered industry-standard design tools including Adobe Creative Suite, developing expertise in typography, color theory, and composition principles.",
+      "Successfully delivered over 50+ design projects on time and within budget, maintaining exceptional client satisfaction and fostering long-term partnerships.",
+      "Developed a keen eye for detail and aesthetic excellence, ensuring every design element served both functional and artistic purposes.",
     ],
   },
   {
-    review: "Muskan’s contributions to Docker's web applications have been outstanding. She approaches challenges with a problem-solving mindset.",
+    review: "Khushi's front-end development skills are exceptional. She created intuitive, responsive interfaces that significantly improved user engagement and satisfaction.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Front-End Developer",
+    date: "2022 - 2023",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Developed responsive, user-centric web applications using modern technologies including React, JavaScript, HTML5, and CSS3 with exceptional attention to detail.",
+      "Created intuitive user interfaces that prioritized accessibility and user experience, resulting in improved engagement metrics and positive user feedback.",
+      "Collaborated with designers and stakeholders to transform creative concepts into functional, interactive web experiences that exceeded expectations.",
+      "Implemented best practices for web performance optimization, ensuring fast loading times and smooth interactions across all devices and browsers.",
+      "Continuously expanded technical knowledge by staying current with emerging front-end technologies and industry trends through dedicated learning and practice.",
     ],
   },
   {
-    review: "Muskan’s work on Appwrite’s mobile app brought a high level of quality and efficiency. She delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "Khushi's back-end development expertise is remarkable. She architected robust, scalable solutions that formed the backbone of our applications.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "Back-End Developer",
+    date: "2023 - 2024",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Architected robust server-side solutions and RESTful APIs using Node.js, Python, and database technologies to support scalable web applications.",
+      "Implemented comprehensive security measures and data protection protocols, ensuring compliance with industry standards and safeguarding sensitive information.",
+      "Designed efficient database schemas and optimized query performance, resulting in improved application response times and enhanced user experiences.",
+      "Developed automated testing suites and deployment pipelines, maintaining high code quality standards and ensuring reliable, bug-free releases.",
+      "Collaborated effectively with front-end teams to create seamless full-stack solutions, fostering clear communication and successful project outcomes.",
+    ],
+  },
+  {
+    review: "Khushi is currently delivering comprehensive full-stack solutions that showcase her mastery of both front-end and back-end technologies.",
+    imgPath: "/images/exp1.png",
+    logoPath: "/images/logo1.png",
+    title: "Full Stack Developer",
+    date: "2025 - Present",
+    responsibilities: [
+      "Currently developing comprehensive web solutions that combine cutting-edge front-end technologies with robust back-end architectures for optimal performance.",
+      "Building this stunning portfolio website using React, Three.js, GSAP, and modern web technologies to showcase technical expertise and creative vision.",
+      "Actively pursuing advanced certifications and participating in developer communities to stay at the forefront of emerging technologies and best practices.",
+      "Committed to delivering exceptional user experiences through thoughtful design, clean code, and innovative problem-solving approaches.",
     ],
   },
 ];
@@ -204,42 +223,42 @@ const testimonials = [
     name: "Esther Howard",
     mentions: "@estherhoward",
     review:
-      "I can’t say enough good things about Muskan. She was able to take our complex project requirements and turn them into a seamless, functional website. Her problem-solving abilities are outstanding.",
+      "I can't say enough good things about Khushi. She was able to take our complex project requirements and turn them into a seamless, functional website. Her problem-solving abilities are outstanding.",
     imgPath: "/images/client1.png",
   },
   {
     name: "Wade Warren",
     mentions: "@wadewarren",
     review:
-      "Working with Muskan was a fantastic experience. She transformed our outdated website into a modern, user-friendly platform. Her attention to detail and commitment to quality are unmatched. Highly recommend her for any web dev projects.",
+      "Working with Khushi was a fantastic experience. She transformed our outdated website into a modern, user-friendly platform. Her attention to detail and commitment to quality are unmatched. Highly recommend her for any web dev projects.",
     imgPath: "/images/client3.png",
   },
   {
     name: "Guy Hawkins",
     mentions: "@guyhawkins",
     review:
-      "Collaborating with Muskan was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Muskan's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Muskan is the ideal partner.",
+      "Collaborating with Khushi was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Khushi's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Khushi is the ideal partner.",
     imgPath: "/images/client2.png",
   },
   {
     name: "Marvin McKinney",
     mentions: "@marvinmckinney",
     review:
-      "Muskan was a pleasure to work with. She turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+      "Khushi was a pleasure to work with. She turned our outdated website into a fresh, intuitive platform that's both modern and easy to navigate. Fantastic work overall.",
     imgPath: "/images/client5.png",
   },
   {
     name: "Floyd Miles",
     mentions: "@floydmiles",
     review:
-      "Muskan’s expertise in web development is truly impressive. she delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. She’s a true professional!",
+      "Khushi's expertise in web development is truly impressive. she delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. She's a true professional!",
     imgPath: "/images/client4.png",
   },
   {
     name: "Albert Flores",
     mentions: "@albertflores",
     review:
-      "Muskan was a pleasure to work with. she understood our requirements perfectly and delivered a website that exceeded our expectations. Her skills in both frontend and backend dev are top-notch.",
+      "Khushi was a pleasure to work with. she understood our requirements perfectly and delivered a website that exceeded our expectations. Her skills in both frontend and backend dev are top-notch.",
     imgPath: "/images/client6.png",
   },
 ];
@@ -267,6 +286,72 @@ const socialImgs = [
   },
 ];
 
+const projects = [
+  {
+    id: 1,
+    title: "Ryde - On-Demand Rides Made Simple",
+    subtitle: "A Powerful, User-Friendly Ride-Sharing App",
+    description: "An innovative ride-sharing application built with React Native, Expo, and TailwindCSS. Features real-time GPS tracking, secure payment integration, driver matching algorithms, and an intuitive user interface for seamless ride booking experience.",
+    image: "/images/project1.png",
+    technologies: ["React Native", "Expo", "TailwindCSS", "Node.js", "MongoDB", "Socket.io"],
+    features: [
+      "Real-time GPS tracking and navigation",
+      "Secure payment gateway integration",
+      "Driver-rider matching algorithm",
+      "In-app messaging and notifications",
+      "Ride history and receipts",
+      "Rating and review system"
+    ],
+    demoLink: "https://your-ryde-demo.com",
+    githubLink: "https://github.com/muskankumari1395/ryde-app",
+    category: "Mobile App",
+    status: "Completed",
+    duration: "3 months"
+  },
+  {
+    id: 2,
+    title: "MOdern Landing Page",
+    subtitle: "Interactive Landing Page using Shery.js",
+    description: "A stunning, modern landing page featuring advanced animations and interactive elements powered by Shery.js. Showcases cutting-edge web design techniques with smooth scrolling, parallax effects, and dynamic content transitions.",
+    image: "/images/project2.png",
+    technologies: ["HTML5", "CSS3", "JavaScript", "Shery.js", "Three.js"],
+    features: [
+      "Advanced scroll-triggered animations",
+      "Interactive 3D elements",
+      "Parallax scrolling effects",
+      "Responsive design across all devices",
+      "Optimized performance and loading",
+      "Modern UI/UX design principles"
+    ],
+    demoLink: "https://your-modern-landing.com",
+    githubLink: "https://github.com/muskankumari1395/modern-landing",
+    category: "Web Design",
+    status: "Completed",
+    duration: "1 month"
+  },
+  {
+    id: 3,
+    title: "YC Directory",
+    subtitle: "A Startup Showcase Platform",
+    description: "A comprehensive startup directory platform inspired by Y Combinator, featuring startup listings, detailed company profiles, funding information, and search functionality. Built with modern web technologies for optimal performance and user experience.",
+    image: "/images/project3.png",
+    technologies: ["Next.js", "React", "TypeScript", "Prisma", "PostgreSQL", "TailwindCSS"],
+    features: [
+      "Comprehensive startup database",
+      "Advanced search and filtering",
+      "Company profile management",
+      "Funding tracking and analytics",
+      "User authentication and profiles",
+      "Admin dashboard for content management"
+    ],
+    demoLink: "https://your-yc-directory.com",
+    githubLink: "https://github.com/muskankumari1395/yc-directory",
+    category: "Web Application",
+    status: "Completed",
+    duration: "2 months"
+  }
+];
+
 export {
   words,
   abilities,
@@ -279,4 +364,5 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
+  projects,
 };
