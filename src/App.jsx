@@ -9,10 +9,12 @@ import LogoShowcase from "./components/LogoShowcase";
 import FeatureCards from "./sections/FeatureCards";
 import NavBar from "./components/NavBar";
 import SmoothCursor from "./components/SmoothCursor";
+import CustomScrollBar from "./components/CustomScrollBar";
 
 const App = () => (
   <>
     <SmoothCursor />
+    <CustomScrollBar/>
     <NavBar />
     <Hero />
     <ShowcaseSection />
