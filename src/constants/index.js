@@ -29,9 +29,9 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
+  { value: 3, suffix: "+", label: "Years of Experience" },
+  { value: 3, suffix: "+", label: "Satisfied Clients" },
+  { value: 5, suffix: "+", label: "Completed Projects" },
   { value: 90, suffix: "%", label: "Client Retention Rate" },
 ];
 
@@ -248,18 +248,22 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    link: "https://www.instagram.com/muskankumariii_?igsh=MWdvb2F2azg1dGhrMQ==",
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
+    name: "github",
+    imgPath: "/images/logos/git.svg",
+    link: "https://github.com/muskankumari1395",
   },
   {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "whatsapp",
+    imgPath: "/images/chat.png",
+    link: "https://wa.me/9330810097",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/muskan-kumari-33aba1360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
 ];
 
