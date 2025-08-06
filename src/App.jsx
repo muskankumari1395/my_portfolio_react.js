@@ -8,9 +8,11 @@ import ShowcaseSection from "./sections/ShowcaseSection";
 import LogoShowcase from "./components/LogoShowcase";
 import FeatureCards from "./sections/FeatureCards";
 import NavBar from "./components/NavBar";
+import SmoothCursor from "./components/SmoothCursor";
 
 const App = () => (
   <>
+    <SmoothCursor />
     <NavBar />
     <Hero />
     <ShowcaseSection />
