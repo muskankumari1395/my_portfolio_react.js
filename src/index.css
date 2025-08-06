@@ -1119,6 +1119,174 @@ section {
   }
 }
 
+/* About Me Section - Matching Website Aesthetic */
+.about-section {
+  @apply w-full bg-black text-white relative overflow-hidden;
+}
+
+.about-layout {
+  @apply grid grid-cols-1 xl:grid-cols-2 gap-10 xl:gap-20 mt-10;
+}
+
+.about-content {
+  @apply flex flex-col space-y-8;
+}
+
+.about-story {
+  @apply space-y-6;
+}
+
+.story-title {
+  @apply text-3xl md:text-4xl lg:text-5xl font-bold text-white-50;
+}
+
+.highlight-text {
+  @apply bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent;
+}
+
+.story-text {
+  @apply space-y-4;
+}
+
+.story-text p {
+  @apply text-white-50 text-lg leading-relaxed;
+}
+
+.story-text strong {
+  @apply text-white font-semibold;
+}
+
+.skills-section {
+  @apply space-y-6;
+}
+
+.skills-title {
+  @apply text-2xl md:text-3xl font-bold text-white-50;
+}
+
+.skills-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4;
+}
+
+.skill-card {
+  @apply p-6 text-center space-y-3 transition-all duration-300 hover:scale-105 bg-black-200 border border-white/10 rounded-xl backdrop-blur-sm;
+}
+
+.skill-icon {
+  @apply text-3xl;
+}
+
+.skill-name {
+  @apply text-lg font-semibold text-white;
+}
+
+.skill-desc {
+  @apply text-sm text-white-50;
+}
+
+.about-visual {
+  @apply flex justify-center items-center h-full;
+}
+
+.profile-container {
+  @apply relative flex justify-center items-center w-full h-full;
+}
+
+.profile-image {
+  @apply relative w-full h-[600px] rounded-2xl overflow-hidden;
+}
+
+.profile-image img {
+  @apply w-full h-full object-cover transition-transform duration-500;
+}
+
+
+
+.floating-tech {
+  @apply absolute inset-0 pointer-events-none;
+}
+
+.tech-icon {
+  @apply absolute w-20 h-20 bg-black-200 border border-white/10 rounded-full flex justify-center items-center backdrop-blur-sm;
+}
+
+.tech-icon img {
+  @apply w-12 h-12 object-contain;
+}
+
+.tech-react {
+  @apply top-4 right-4;
+}
+
+.tech-node {
+  @apply top-1/2 -left-8 -translate-y-1/2;
+}
+
+.tech-python {
+  @apply bottom-4 right-8;
+}
+
+.tech-three {
+  @apply top-8 -left-4;
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 1280px) {
+  .about-layout {
+    @apply gap-12;
+  }
+  
+  .profile-image {
+    @apply h-[500px];
+  }
+}
+
+@media (max-width: 768px) {
+  .about-layout {
+    @apply gap-8;
+  }
+  
+  .story-title {
+    @apply text-2xl md:text-3xl;
+  }
+  
+  .skills-grid {
+    @apply grid-cols-1 md:grid-cols-2;
+  }
+  
+  .profile-image {
+    @apply h-[400px];
+  }
+  
+  .tech-icon {
+    @apply w-16 h-16;
+  }
+  
+  .tech-icon img {
+    @apply w-10 h-10;
+  }
+}
+
+@media (max-width: 640px) {
+  .story-title {
+    @apply text-xl;
+  }
+  
+  .story-text p {
+    @apply text-base;
+  }
+  
+  .skills-grid {
+    @apply grid-cols-1;
+  }
+  
+  .profile-image {
+    @apply h-[350px];
+  }
+}
+
 /* Hero text slider starts */
 .slide {
   display: inline-block;
