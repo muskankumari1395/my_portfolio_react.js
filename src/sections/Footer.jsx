@@ -80,7 +80,7 @@ const Footer = () => {
           <div className="footer-divider"></div>
           <div className="footer-bottom-content">
             <div className="copyright">
-              <p>© {new Date().getFullYear()} Khushi. Crafted with ❤️ and lots of ☕</p>
+              <p>© {new Date().getFullYear()} Muskan. Crafted with ❤️ and lots of ☕</p>
             </div>
             <div className="footer-links">
               <a href="#" className="footer-link">Privacy Policy</a>
