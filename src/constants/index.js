@@ -293,18 +293,16 @@ const socialImgs = [
 const projects = [
   {
     id: 1,
-    title: "Ryde - On-Demand Rides Made Simple",
-    subtitle: "A Powerful, User-Friendly Ride-Sharing App",
-    description: "An innovative ride-sharing application built with React Native, Expo, and TailwindCSS. Features real-time GPS tracking, secure payment integration, driver matching algorithms, and an intuitive user interface for seamless ride booking experience.",
+    title: "Advanced calculator",
+    subtitle: "Advanced Calulator-Standard and scientific",
+    description: "A sleek, modern calculator interface with a scientific mode toggle and a vibrant gradient background.",
     image: "/images/project1.png",
-    technologies: ["React Native", "Expo", "TailwindCSS", "Node.js", "MongoDB", "Socket.io"],
+    technologies: ["HTML5", "CSS3", "JavaScript"],
     features: [
-      "Real-time GPS tracking and navigation",
-      "Secure payment gateway integration",
-      "Driver-rider matching algorithm",
-      "In-app messaging and notifications",
-      "Ride history and receipts",
-      "Rating and review system"
+      "Basic arithmetic operations",
+      "Basic arithmetic operations",
+      "Responsive, modern UI",
+      "Background animation",
     ],
     demoLink: "https://your-ryde-demo.com",
     githubLink: "https://github.com/muskankumari1395/ryde-app",
@@ -333,7 +331,7 @@ const projects = [
     status: "Completed",
     duration: "1 month"
   },
-  {
+  /*{
     id: 3,
     title: "YC Directory",
     subtitle: "A Startup Showcase Platform",
@@ -353,7 +351,7 @@ const projects = [
     category: "Web Application",
     status: "Completed",
     duration: "2 months"
-  }
+  }*/
 ];
 
 export {
