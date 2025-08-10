@@ -83,7 +83,7 @@ const AppShowcase = () => {
               </div>
               <div className="text-content">
                 <h2>
-                  Advanced Calculator
+                  Advanced Calculator-Standard and Scientific 
                 </h2>
                 <p className="text-white-50 md:text-xl">
                   An app built with React Native, Expo, & TailwindCSS for a fast,
