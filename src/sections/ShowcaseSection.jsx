@@ -72,7 +72,7 @@ const AppShowcase = () => {
               onClick={() => handleProjectClick(1)}
             >
               <div className="image-wrapper">
-                <img src="/images/project1.png" alt="Ryde App Interface" />
+                <img src="/images/project1.png" alt="Advanced Calculator" />
                 <div className="project-overlay">
                   <div className="overlay-content">
                     <span className="click-hint">Click to view details</span>
