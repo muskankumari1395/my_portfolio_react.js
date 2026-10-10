@@ -13,7 +13,8 @@ const AppShowcase = () => {
   const project2Ref = useRef(null);
   const project3Ref = useRef(null);
   const project4Ref = useRef(null);
-  
+  const project5Ref = useRef(null);
+
   const [selectedProject, setSelectedProject] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -155,6 +156,26 @@ const AppShowcase = () => {
                   </div>
                 </div>
                 <h2>Studio Motion</h2>
+              </div>
+
+              <div 
+                className="project project-clickable" 
+                ref={project5Ref}
+                onClick={() => handleProjectClick(5)}
+              >
+                <div className="image-wrapper bg-[#FFE7EB]">
+                  <img src="/images/project5.png" alt="Chronos Premium Timepiece" />
+                  <div className="project-overlay">
+                    <div className="overlay-content">
+                      <span className="click-hint">Click to view details</span>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 3H6C4.89543 3 4 3.89543 4 5V19C4 20.1046 4.89543 21 6 21H18C19.1046 21 20 20.1046 20 19V8L15 3Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M15 3V8H20" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <h2>Chronos Premium Timepiece-Swiss Luxury Watch Collection Website</h2>
               </div>
             </div>
           </div>
