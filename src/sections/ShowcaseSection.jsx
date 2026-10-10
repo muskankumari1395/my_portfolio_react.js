@@ -136,25 +136,7 @@ const AppShowcase = () => {
                 <h2>Portfolio Template</h2>
               </div>
 
-              <div 
-                className="project project-clickable" 
-                ref={project4Ref}
-                onClick={() => handleProjectClick(4)}
-              >
-                <div className="image-wrapper bg-[#FFE7EB]">
-                  <img src="/images/project4.png" alt="Studio Motion" />
-                  <div className="project-overlay">
-                    <div className="overlay-content">
-                      <span className="click-hint">Click to view details</span>
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path d="M15 3H6C4.89543 3 4 3.89543 4 5V19C4 20.1046 4.89543 21 6 21H18C19.1046 21 20 20.1046 20 19V8L15 3Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                        <path d="M15 3V8H20" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-                <h2>Studio Motion</h2>
-              </div>
+             
             </div>
           </div>
         </div>
