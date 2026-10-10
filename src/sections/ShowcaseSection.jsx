@@ -122,7 +122,7 @@ const AppShowcase = () => {
                 onClick={() => handleProjectClick(3)}
               >
                 <div className="image-wrapper bg-[#FFE7EB]">
-                  <img src="/images/project3.png" alt="YC Directory App" />
+                  <img src="/images/project3.png" alt="Portfolio Template" />
                   <div className="project-overlay">
                     <div className="overlay-content">
                       <span className="click-hint">Click to view details</span>
@@ -133,7 +133,7 @@ const AppShowcase = () => {
                     </div>
                   </div>
                 </div>
-                <h2>YC Directory - A Startup Showcase App</h2>
+                <h2>Portfolio Template</h2>
               </div>
             </div>
           </div>
