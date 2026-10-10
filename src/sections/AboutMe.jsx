@@ -163,7 +163,7 @@ const AboutMe = () => {
           <div ref={imageRef} className="about-visual">
             <div className="profile-container">
               <div className="profile-image">
-                <img src="/images/profile.jpg" alt="Muskan Kumari - Full Stack Developer" />
+                <img src="/images/profile.png" alt="Muskan Kumari - Full Stack Developer" />
               </div>
               
               {/* Floating Tech Icons */}
